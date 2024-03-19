@@ -148,8 +148,6 @@ void excluirElemento()
 		for (int i = pos; i < nElementos - 1; i++)
 		{
 			lista[i] = lista[i + 1];
-
-
 		}
 		nElementos--;
 		cout << "Nova lista \n";
@@ -158,7 +156,7 @@ void excluirElemento()
 		}
 	}
 else {
-		cout << "nao tem" << endl;
+		cout << "O elemento não existe na lista" << endl;
 	}
 }
 
